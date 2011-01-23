@@ -8,7 +8,7 @@ define('STASYS_ROOT', dirname(__FILE__));
 /**
  * A shorter name for DIRECTORY_SEPARATOR.
  */
-define('DS', DIRECTORY_SEPARATOR);
+define('STASYS_DS', DIRECTORY_SEPARATOR);
 
 /**
  * Autoloader for classes.
@@ -21,6 +21,6 @@ define('DS', DIRECTORY_SEPARATOR);
  * @return null
  */
 function __autoload($class) {
-	$path = STASYS_ROOT . DS . str_replace('_', DS, $class) . '.php';
+	$path = STASYS_ROOT . STASYS_DS . str_replace('_', STASYS_DS, $class) . '.php';
 	require_once $path;
 }
