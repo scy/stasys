@@ -24,3 +24,6 @@ function __autoload($class) {
 	$path = STASYS_ROOT . STASYS_DS . str_replace('_', STASYS_DS, $class) . '.php';
 	require_once $path;
 }
+
+// Load basic exceptions. (stasys/Exception.php contains them.)
+__autoload('stasys_Exception');
