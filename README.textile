@@ -2,18 +2,14 @@ h1. stasys – a static website generator system
 
 h2. Current status
 
-We are currently planning and gathering requirements. However, coding has also
-already started. Since stasys aims to not require external libraries, we first
-have to work on the foundations (utility classes and other low-level stuff).
+We are currently planning and gathering requirements. However, coding has also already started. Since stasys aims to not require external libraries, we first have to work on the foundations (utility classes and other low-level stuff).
 
 In other words: stasys is not ready yet, not even for experimental use.
 
 h2. System requirements
 
-stasys works best with PHP 5.2 and 5.3, but most likely any version ≤ 5 should
-work.
+stasys works best with PHP 5.2 and 5.3, but most likely any version ≥ 5 should work.
 
-We use Unicode in the source, so your editor and shell has to be able to handle
-UTF-8 data.
+We use Unicode in the source, so your editor and shell has to be able to handle UTF-8 data.
 
 The code _should_ work on Windows, but we have so far only tested it with Unix.
