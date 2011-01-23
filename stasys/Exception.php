@@ -6,6 +6,16 @@
 class stasys_Exception extends Exception { }
 
 /**
+ * Something could not be accessed.
+ */
+class stasys_AccessException extends stasys_Exception { }
+
+/**
+ * A file or directory could not be accessed.
+ */
+class stasys_FileAccessException extends stasys_Exception { }
+
+/**
  * Invalid input.
  */
 class stasys_InputException extends stasys_Exception { }
